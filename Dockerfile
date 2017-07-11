@@ -20,4 +20,4 @@ ENV PATH /go/src/github.com/evilsocket/xray/build/:$PATH
 # Build directory
 WORKDIR /go/src/github.com/evilsocket/xray/
 
-CMD ["xray"]
+CMD ["bash"]
