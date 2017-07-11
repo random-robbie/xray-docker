@@ -1,7 +1,7 @@
 FROM golang:alpine
 
 # Add git and make to alpine
-RUN apk add --no-cache git make
+RUN apk add --no-cache git make bash bash-doc bash-completion
 
 # Download and install xray as per instructions
 RUN go get github.com/evilsocket/xray && \
